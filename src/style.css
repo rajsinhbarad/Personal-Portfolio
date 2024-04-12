@@ -754,3 +754,34 @@ button:focus {
  text-align: center;
  color: white;
 }
+
+@media (max-width: 767px) {
+  .contact-left {
+    padding-right: 15px !important;
+    padding-left: 15px !important;
+  }
+
+  .contact-right {
+    padding-right: 15px !important;
+    padding-left: 15px !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .thanks {
+   display: flex;
+   flex-direction: column !important;
+   align-items: center;
+   justify-content: center;
+  }
+}
+
+@media (max-width: 767px) {
+  .name .submit{
+   /* display: flex;
+   flex-direction: column !important;
+   align-items: center;
+   justify-content: center; */
+   width: 10pc;
+  }
+}
